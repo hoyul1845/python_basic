@@ -1,3 +1,4 @@
+#4.4.문자열포멧
 #print("a" + "b")
 #print("a", "b")
 
@@ -19,7 +20,7 @@ print("나는 {1}색과 {0}색을 좋아해요.".format("파란", "빨간"))
 print("나는 {age}살이며, {color}색을 좋아해요.".format(age = 20, color="빨간"))
 print("나는 {age}살이며, {color}색을 좋아해요.".format(color="빨간", age="20"))
 
-#방법 4 (v3.6이상~)
+#방법 $ (v3.6이상~)
 age = 20
 color = "빨간"
 print(f"나는 {age}살이며, {color}색을 좋아해요.")
