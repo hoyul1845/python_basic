@@ -1,3 +1,4 @@
+#6.3.while
 #cumstomer = "토르"
 #index = 5
 #    #print("{0}, 커피가 준비 되었습니다. {1} 번 남았어요.".format(customer, index))
