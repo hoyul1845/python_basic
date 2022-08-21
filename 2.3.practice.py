@@ -1,3 +1,4 @@
+# 2.3.boolean 자료형
 # 참 / 거짓
 print(5 > 10)
 print(5 < 10)
