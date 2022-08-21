@@ -1,3 +1,4 @@
+# 5.6.퀴즈 #4
 from random import * 
 users = range(1, 21) # 1부터 20까지 숫자를 생성
 print(type(users))
