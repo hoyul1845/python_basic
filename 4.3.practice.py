@@ -1,3 +1,4 @@
+# 4.3.문자열처리함수
 python = "Python is Amazing"
 print(python.lower())
 print(python.upper())
