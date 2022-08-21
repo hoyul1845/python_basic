@@ -1,3 +1,4 @@
+# 7.4.키워드 값
 def profile(name, age, main_lang):
     print(name, age, main_lang)
     
