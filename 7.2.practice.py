@@ -1,3 +1,4 @@
+# 전달값과 반환 값
 def open_account():
     print("새로운 계좌가 생성되었습니다.")
     
