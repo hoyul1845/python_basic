@@ -1,3 +1,4 @@
+# 6.6.퀴즈 #5
 from random import * 
 cnt = 0 # 총 탑승 승객 수
 for i in range(1, 51): # 1 ~ 50 이라는 수 (승객)
