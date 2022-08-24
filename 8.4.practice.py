@@ -1,4 +1,4 @@
-# 8.4 pickle
+# 8.4 pickle 
 import pickle
 # profile_file = open("profile.pickle", "wb")
 # profile = {"이름":"박명수", "나이":30, "취미":["축구", "골프", "코딩"]}
