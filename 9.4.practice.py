@@ -60,8 +60,8 @@ firebat1 = AttackUnit("파이어뱃", 50, 16)
 firebat1.attack("5시")
 
 # 공격 2번 받는다고 가정
-firebat1.damaged(99999999999999999999999999999999999)
-firebat1.damaged(99999999999999999999999999999999999)
+firebat1.damaged(1)
+firebat1.damaged(1)
         
 # marine1 = Unit("마린", 40, 5)
 #marine2 = Unit("마린", 40, 5)
