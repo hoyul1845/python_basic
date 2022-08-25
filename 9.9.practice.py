@@ -77,11 +77,3 @@ class FlyableAttackUnit(Flyable, AttackUnit):
     def move(self, location):
         print("[공중 유닛 이동]")
         self.fly(self.name, location)
-
-# 건물
-class BuildingUnit(Unit):
-    def __init__(self, name, hp, location):
-        #Unit.__init__(self, name, hp, 0)
-        super().__init__(name, hp, 0)
-        self.location = location
-    
