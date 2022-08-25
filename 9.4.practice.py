@@ -36,7 +36,6 @@ class Unit:
         self.damage = damage
         print("{0} 유닛이 생성 되었습니다.".format(self.name))
         print("체력 {0}, 공격력 {1}".format(self.hp, self.damage))
-
 # 공격 유닛        
 class AttackUnit:
     def __init__(self, name, hp, damage):
@@ -53,8 +52,7 @@ class AttackUnit:
         self.hp -= damage
         print("{0} : 현재 체력은 {1} 입니다.".format(self.name, self.hp))
         if self.hp <= 0:
-            print("{0} : 파괴되었습니다.".format(self.name))
-            
+            print("{0} : 파괴되었습니다.".format(self.name))          
 # 파이어뱃 : 공격 유닛, 화염방사기.
 firebat1 = AttackUnit("파이어뱃", 50, 16)
 firebat1.attack("5시")
