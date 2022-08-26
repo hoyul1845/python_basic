@@ -34,11 +34,18 @@ class Unit:
         self.name = name
         self.hp = hp
         self.speed = speed
+        print("{ 유닛 생성".format(name))
         
     def move(self, location):
         print("[지상 유닛 이동]")
         print("{0} : {1} 방향으로 이동합니다. [속도 {2}]"\
             .format(self.name, location, self.speed))
+    def damaged(self, damage):
+        print("{0} : {1} 데미지를 입었습니다.".format(self.name, damage))
+        self.hp -= damage
+        print("{0} : 현재 체력은 {1} 입니다.".format(self.name, self.hp))
+        if self.hp <= 0:
+            print("{0} : 파괴되었습니다.".format(self.name))
 # 공격 유닛        
 class AttackUnit(Unit):
     def __init__(self, name, hp, damage, speed):
