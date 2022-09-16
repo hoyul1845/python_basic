@@ -12,13 +12,13 @@
 # 변수명 규칙1 문자숫자 = 숫자가 먼저나오면 안됨
 # 변수명 규칙2 특별 문자 = 특별 문자(예:!@#$%^&*())같은 것은 안되지만 _는 예외다.
 # 파이썬은 영어 변수, 한글 변수 모두 다 가능하다.하지만 한글변수 사용시 오류가 발생 할 수도 있다.대부분 프로그래밍 언어는 영어변수를 사용한다.
-number1 = 100
-print(number1)
+#number1 = 100
+#print(number1)
 # 변수명 규칙3 에약어 사용 금지 = 중요한 이름은 파이썬이 사용한다.
 #class = 3 #class는 예약어 이므로 금지
 # 변수명 규칙4 의미있는 이름 = (예:color_name = '빨강')안 지켜도 에러는 발생이 안되지만 지켜야 한다.이름만 봐도 뜻을 알수 있는 변수(o) 뜻을 짐작할 수 있는 이름이 좋다.
-color_name = '빨강'
-print(color_name)
+#color_name = '빨강'
+#print(color_name)
 # 변수 주의사항1 = name과NAME은 다른변수이다.(예:name,Name,nAme,namE,NAME(모두 다르다.))
 # 변수 주의사항2 = 띄어쓰기,들여쓰기(예(변수이름에 띄어쓰기(x))
 # number 1 = 100(x)
@@ -34,19 +34,19 @@ print(color_name)
 #if = 100
 
 #[After]
-name = '라이언'
-fruit = '사과'
-animal= '개'
-icecream = 3
+#name = '라이언'
+#fruit = '사과'
+#animal= '개'
+#icecream = 3
 #(if자리) = 100
 # 자료형(데이타 타입) (예:100,3.5,'라이언',True)이러한 데이타 종류를 자료형이라고 한다.
 # Python 자료형 = (숫자:int 데이타:10,-3등등,float 데이타:3.5,0.05등등),(문자:str(string의 줄임말)(주의:문자는''또는""로 묶어주어야 한다.숫자도 따옴표로 묶으면 문자가 된다.) 데이타:'라이언','Hello등등)(부울:bool(참과거짓을 나타냄) 데이타:True,False)
-name = '전정국' # 이름
-rope = 200 # 줄넘기 횟수
-rope_time = 90 # 90초
-rope_pass = True # 통과 했는 가?
+#name = '전정국' # 이름
+#rope = 200 # 줄넘기 횟수
+#rope_time = 90 # 90초
+#rope_pass = True # 통과 했는 가?
 
-print(name,rope,rope_time,rope_pass)
+#print(name,rope,rope_time,rope_pass)
 # 자료형(데이타 타입)에서 많은 것을 가질 수 있는 것:(list(대가로로 묶여있음) 데이타:[1,2,3,4,5]등등,turple(소가로로 묶여있음) 데이타:(1,2,3,4,5)등등,set(중가로로 묶여있음) 데이타:{1,2,3,4,5}등등,dict(dictionary의 줄임말이고,중가로로 묶여있으며,문자형이다.){'사과':'빨강','바나나':'노랑'})
 # [연습 문제]
 #다음을 변수로 선언하시오
@@ -58,11 +58,11 @@ print(name,rope,rope_time,rope_pass)
 #무지개 색깔 리스트
 
 #After
-rope = 56
-temperature = 23.5
-rain = False
-country = '대한민국'
-rainbow = ['빨','주','노','초','파','남','보']
+#rope = 56
+#temperature = 23.5
+#rain = False
+#country = '대한민국'
+#rainbow = ['빨','주','노','초','파','남','보']
 # 입력함수:사용자가 입력한 값을 받는 함수
 # 출력함수:화면에 값을 보여주는 함수
 # 함수:특정기능(작업)을 한 뒤 그 결과값을 알려주는 것
@@ -82,22 +82,50 @@ rainbow = ['빨','주','노','초','파','남','보']
 #animal = input('좋아하는 동물이 무엇이니?:')
 #print('내가 좋아하는 동물은'+ animal +'입니다.')
 # int는 인티저라고 읽는다.
-print('4*2 =',4 * 2)
-print('4**3 =',4 * 3)
+#print('4*2 =',4 * 2)
+#print('4**3 =',4 * 3)
 
-print('50/4 =',50 / 4)
-print('50//4 =',50 // 4)
-print('50%4 =',50 % 4)
+#print('50/4 =',50 / 4)
+#print('50//4 =',50 // 4)
+#print('50%4 =',50 % 4)
 
-apple = 30
-orange = 10
-banana = 25
-student = 7
-fruit2 = apple + orange + banana
-print(fruit2)
-diff = apple - orange
-print(diff)
-per = banana // student
-print(per)
-mod = banana % student
-print(mod)
+#apple = 30
+#orange = 10
+#banana = 25
+#student = 7
+#fruit2 = apple + orange + banana
+#print(fruit2)
+#diff = apple - orange
+#print(diff)
+#per = banana // student
+#print(per)
+#mod = banana % student
+#print(mod)
+
+# str 문자:''또는""(예:game = '브롤스타즈'(o)game = "브롤스타즈"(o)game = '브롤스타즈"(x))
+# 주의 사항:숫자도 따옴표(',")로 묶으면 문자가 된다.
+# 이스 케이프 문자: \', \", \n = 개행문자-줄바꿈 표시.사용법: 역슬래쉬,백슬래쉬 
+
+# '아..배고파'
+#print("\'아..배고파\'")
+
+# 개행문자 \n
+#하나
+#둘
+#셋
+#print("하나\n둘\n셋")
+
+# str 문자2:+*(예:game = "브롤" + "스타즈", game = "브롤"*3(출력예제:(1):브롤스타즈 (2):브롤브롤브롤)))
+# str 문자3:len()데이타 길이 알기(예:count = len("달려라 파이썬")(출력예제:7))
+# 1
+#me = "호율"
+#print("\"안녕?\"\n\"나는 "+ me +"이야.")
+#hello = "\"안녕?\"\n\"나는 이호율이야.\""
+#print(hello)
+
+# 2
+#count = len(hello)
+#print(count)
+
+# 자료형 bool boll은 참과거짓을 나타내는 자료형이다.(예:light_on = True)
+# bool은 숫자가 있으면 True 없으면 False 문자가 있으면 True 없으면 False 리스트에 뭐가 들어 있으면 True 없으면 False 또 None이 있으면 False 없어도 False를 출력한다.
